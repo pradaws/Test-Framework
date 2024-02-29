@@ -21,6 +21,7 @@ public class flowpage extends Base{
 	public flowpage(AndroidDriver mobileDriver) {
 		this.mobileDriver=mobileDriver;
 		PageFactory.initElements( mobileDriver,this);
+		System.out.println("");
 
 	}
 
