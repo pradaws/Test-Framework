@@ -1,0 +1,33 @@
+Task 1:
+1.enter into the web application(https://www.opencart.com/index.php?route=account/register)
+
+
+2.right click on the E-mail input box and select inspect option
+3.write absolute x-path and relative x-path
+
+absoulte path = /html/body/div[2]/div/div/div/form/div[3]/input
+relative path = //input[@name='username']
+
+Task2:
+1.enter into the web application(https://www.opencart.com/index.php?route=account/register)
+2.right click on the password input box and select inspect option
+3.write X-path by using contains and And & or operator 
+
+contains: //input[contains(@name,'password')]
+And operator://input[@name='password' and @type='password']
+or operator: //input[@name='password' or @ id='password']  
+
+Task3:
+1.enter into the web application(https://www.opencart.com/index.php?route=account/register)
+2.write absolute and relative x-paths for all web elements for the webpage
+
+username absolute:            /html/body/div[2]/div/div/div/form/div/input
+username relative:            //input[@name='username']
+first name absolute:          /html/body/div[2]/div/div/div/form/div[2]/div/div/input
+first name relative:          //input[@name='firstname']
+last name absolute:           /html/body/div[2]/div/div/div/form/div[2]/div[2]/div/input
+country absolute:            /html/body/div[2]/div/div/div/form/div[4]/select
+password absoute:            /html/body/div[2]/div/div/div/form/div[5]/input
+captcha absolute:             /html/body/div[2]/div/div/div/form/div[6]/div/div/div[2]
+register absolute:           /html/body/div[2]/div/div/div/form/div[7]/button
+
